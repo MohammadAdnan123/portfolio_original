@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b88ec7e2.css",
+    "main.js": "/static/js/main.56073aea.js",
+    "static/js/787.cda612ba.chunk.js": "/static/js/787.cda612ba.chunk.js",
+    "static/media/portfolio.jpg": "/static/media/portfolio.8441ebe8d28911eeeed8.jpg",
+    "static/media/Blog-Article-MERN-Stack.jpg": "/static/media/Blog-Article-MERN-Stack.72332dbd8a1d6222ec1b.jpg",
+    "static/media/Thumbnail3.jpg": "/static/media/Thumbnail3.3f288df0d4f8b363e8a3.jpg",
+    "static/media/Thumbnail2.jpg": "/static/media/Thumbnail2.506c2079501f0eea6a4d.jpg",
+    "static/media/Thumbnail5.jpg": "/static/media/Thumbnail5.2cb3e1ed57a5f0e50921.jpg",
+    "static/media/Thumbnail4.jpg": "/static/media/Thumbnail4.c8c29107aa1221f8c232.jpg",
+    "static/media/Thumbnail.jpg": "/static/media/Thumbnail.7e55d43f80f059517d97.jpg",
+    "static/media/cp.png": "/static/media/cp.1b754b2d1b8bf5e8a14e.png",
+    "static/media/WhatsApp Image 2023-03-03 at 3.08.22 PM1.jpeg": "/static/media/WhatsApp Image 2023-03-03 at 3.08.22 PM1.2aee28428ed66b0bb39d.jpeg",
+    "static/media/Python-Emblem.jpg": "/static/media/Python-Emblem.4006d2fb3b64d5e73bda.jpg",
+    "static/media/1200px-C_Programming_Language.svg.png": "/static/media/1200px-C_Programming_Language.svg.c0da8156a8d17281c29e.png",
+    "static/media/ISO_C++_Logo.svg.png": "/static/media/ISO_C++_Logo.svg.3f8430b31b0960aae7e0.png",
+    "static/media/logo.jpg": "/static/media/logo.a704b5b33fdb6766e933.jpg",
+    "static/media/wordofday.png": "/static/media/wordofday.a0c38c5420ba758f52c0.png",
+    "index.html": "/index.html",
+    "main.b88ec7e2.css.map": "/static/css/main.b88ec7e2.css.map",
+    "main.56073aea.js.map": "/static/js/main.56073aea.js.map",
+    "787.cda612ba.chunk.js.map": "/static/js/787.cda612ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b88ec7e2.css",
+    "static/js/main.56073aea.js"
+  ]
+}
