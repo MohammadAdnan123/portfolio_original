@@ -4,7 +4,7 @@ import skill3 from "./1200px-C_Programming_Language.svg.png"
 import skill4 from "./Blog-Article-MERN-Stack.jpg"
 
 
-export default [
+let skillset = [
     {
         id:1,
         img:skill1,
@@ -26,3 +26,4 @@ export default [
         title:"Full Stack Web Development"
     },
 ]
+export default skillset

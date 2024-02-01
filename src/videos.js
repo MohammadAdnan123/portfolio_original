@@ -4,7 +4,7 @@ import vid3 from "./Thumbnail3.jpg"
 import vid4 from "./Thumbnail4.jpg"
 import vid5 from "./Thumbnail5.jpg"
 
-export default [
+let videos = [
     {
         id: 1,
         url:"https://www.youtube.com/watch?v=8pST3R7HefM&t=7s",
@@ -49,3 +49,4 @@ export default [
     },
 
 ]
+export default videos
