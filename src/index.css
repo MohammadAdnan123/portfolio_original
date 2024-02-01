@@ -5,12 +5,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-:root {
-  --color: #4EB1BA; 
-  --border: 5px;   
-  --offset: 30px;   
-  --gap: 5px;       
-}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -104,25 +98,25 @@ code {
 }
 
 #avatar>img {
+  --color: #4EB1BA; 
+  --border: 5px;   
+  --offset: 30px;   
+  --gap: 5px;       
   width: 100%;
   border-radius: 50%;
-  padding: calc(var(--border) + var(--gap));
+  /* padding: calc(var(--border) + var(--gap));
   border: var(--offset) solid #0000;
-  
-  --_m: radial-gradient(50% 50%, #000 calc(100% - var(--offset)), #0000 calc(100% - var(--border)));
+  --_m: radial-gradient(50% 50%, #000 calc(100% - var(--offset)),#0000 calc(100% - var(--border)));
   -webkit-mask: var(--_m);
-  mask: var(--_m);
-  
-  --_g: #0000 calc(99% - var(--border)), var(--color) calc(100% - var(--border)) 99%, #0000;
+          mask: var(--_m);
+  --_g: #0000 calc(99% - var(--border)), var(--color) calc(100% - var(--border)) 99%,#0000;
   --_s: var(--offset);
-  --_r: 100% 100% at 0 0;
-  
+  --_r: 100% 100% at;
   background:
-    radial-gradient(var(--_r), var(--_g)) calc(100% + var(--_s)) calc(100% + var(--_s)),
-    radial-gradient(var(--_r), var(--_g)) calc(0%   - var(--_s)) calc(100% + var(--_s)),
-    radial-gradient(var(--_r), var(--_g)) calc(100% + var(--_s)) calc(0%   - var(--_s)),
-    radial-gradient(var(--_r), var(--_g)) calc(0%   - var(--_s)) calc(0%   - var(--_s));
-  
+    radial-gradient(var(--_r) 0    0   ,var(--_g)) calc(100% + var(--_s)) calc(100% + var(--_s)),
+    radial-gradient(var(--_r) 100% 0   ,var(--_g)) calc(0%   - var(--_s)) calc(100% + var(--_s)),
+    radial-gradient(var(--_r) 0    100%,var(--_g)) calc(100% + var(--_s)) calc(0%   - var(--_s)),
+    radial-gradient(var(--_r) 100% 100%,var(--_g)) calc(0%   - var(--_s)) calc(0%   - var(--_s)); */
   background-size: 50% 50%;
   background-repeat: no-repeat;
   transition: .4s;
