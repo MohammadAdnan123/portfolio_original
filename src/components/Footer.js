@@ -1,9 +1,10 @@
 import React from "react";
 import {Link} from "react-router-dom"
+import { motion } from "framer-motion";
 
 export default function Footer(props){
     return(
-        <div className="footer">
+        <motion.div className="footer" initial={{opacity: 0}} animate={{opacity: 1}} exit={{opacity: 0}}>
             <div data-aos = "fade-up" data-aos-duration = "800">
             <div className="footer-main">
                 <div className="hello">
@@ -33,6 +34,6 @@ export default function Footer(props){
                     </small>
             </div>
             </div>
-        </div>
+        </motion.div>
     )
 }

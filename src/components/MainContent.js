@@ -4,6 +4,7 @@ import avatar from "../WhatsApp Image 2023-03-03 at 3.08.22 PM1.jpeg"
 import SkillCard from "./SkillCard";
 import { fetchSkillsFromFirestore } from "../fetchdata"
 import Contact from "./Contact";
+import { motion } from "framer-motion";
 
 export default function MainContent() {
     const location = useLocation()
@@ -33,7 +34,7 @@ export default function MainContent() {
     }
     )
     return (
-        <div>
+        <motion.div initial={{opacity: 0}} animate={{opacity: 1}} exit={{opacity: 0}}>
             <div className="main-items">
                 <div className="text-intro" data-aos="fade-up">
                     <h1 id="welcome" className="glitch" data-text="Hello, I am Mohammad Adnan">Hello, I am Mohammad Adnan</h1>
@@ -62,6 +63,6 @@ export default function MainContent() {
                 </section>
             </section>
             <Contact />
-        </div>
+        </motion.div>
     )
 }
