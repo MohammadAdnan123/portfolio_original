@@ -39,7 +39,7 @@ export default function MainContent() {
                 <div className="text-intro" data-aos="fade-up">
                     <h1 id="welcome" className="glitch" data-text="Hello, I am Mohammad Adnan">Hello, I am Mohammad Adnan</h1>
                     <p id="brief-intro">I am a software developer and a content creator based in India.</p>
-                    <a id="resume-link" href="https://drive.google.com/file/d/1M7RvHicobPfNxpA9-51g0x-KOFdRpHDl/view?usp=share_link" target="_blank" rel="noopener noreferrer"><button id="resume-but">Resume</button></a>
+                    <a id="resume-link" href="https://resume.io/r/v977YRsSI" target="_blank" rel="noopener noreferrer"><button id="resume-but">Resume</button></a>
                 </div>
                 <div id="avatar" data-aos="fade-up">
                     <img src={avatar} alt="" />
@@ -66,3 +66,4 @@ export default function MainContent() {
         </motion.div>
     )
 }
+
