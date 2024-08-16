@@ -1,4 +1,3 @@
-import React from "react";
 import {Link} from "react-router-dom"
 import { motion } from "framer-motion";
 
@@ -10,7 +9,7 @@ export default function Footer(props){
                 <div className="hello">
                     <h5 className="footer-heading">SAY HELLO</h5>
                     <ul className="footer-list">
-                        <li><a className="footer-list-items" href="https://www.instagram.com/mohammadadnan212/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+                        <li><a className="footer-list-items" href="https://www.instagram.com/notmasterjiraiya?igsh=aXN1ajk2ejlhYWhr" target="_blank" rel="noopener noreferrer">Instagram</a></li>
                         <li><a className="footer-list-items" href="https://www.linkedin.com/in/mohammad-adnan-11a33a222" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
                         <li><a className="footer-list-items" href="https://twitter.com/Mohamma33023944" target="_blank" rel="noopener noreferrer">Twitter</a></li>
                     </ul>
@@ -26,7 +25,7 @@ export default function Footer(props){
             </div>
             <hr id="separator" />
             <div className="footer-copyright">
-                <small id="tag-copyright">&#169; Adnan Alam Mallick 2023</small>
+                <small id="tag-copyright">&#169; Adnan Alam Mallick {new Date().getFullYear()}</small>
                 <small id="social">
                     <li><a className="dev-link" href="https://www.codechef.com/users/mdadnan123" target="_blank" rel="noopener noreferrer">CodeChef</a></li>
                     <li><a className="dev-link" href="https://codeforces.com/profile/mdadnanofficial123" target="_blank" rel="noopener noreferrer">CodeForces</a></li>

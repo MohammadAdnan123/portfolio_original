@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function VideoCard(props){
     return(
         <div id="video-card" data-aos="zoom-in-up" data-aos-duration="500">

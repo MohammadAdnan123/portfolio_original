@@ -90,6 +90,7 @@ code {
   color: #E9E9E9;
 }
 #brief-intro{
+  margin: 1.5rem 0;
   width: 100%;
   font-size: 2rem;
 }
@@ -153,15 +154,10 @@ code {
   margin: 2%;
   width: 200px;
   height: fit-content;
-  border: 1px solid black;
   border-radius: 15%;
   vertical-align: middle;
   text-align: center;
   transition: all 375ms;
-}
-#skill-box:hover{
-  transform: translateY(-5px);
-  box-shadow: 2px 2px 3px grey;
 }
 #skill-logo{
   margin: 7% auto;
@@ -187,7 +183,7 @@ code {
   flex-direction: column;
   flex: 1;
   background-color: #222930;
-  margin: 30px;
+  margin: 4rem;
   padding: 20px;
 }
 #working-heading, #content-creating-heading{
@@ -197,6 +193,8 @@ code {
   color: #4EB1BA;
 }
 #working-para, #content-creating-para{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   font-size: 1.5rem;
   font-style: oblique;
   color: #E9E9E9;
@@ -607,25 +605,18 @@ code {
 #work-img-area{
   transition: all 0.5s;
 }
-#work-img-area:hover{
-  transform: translateX(-25px);
-}
+
 #work-detail{
   border-radius: 10px;
   position: relative;
-  left: -20px;
-  padding: 10px;
+  padding: 1.5rem;
   width: 40%;
-  background-color: #222930;
   transition: all 0.5s;
 }
 #work-container-heading{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: #4EB1BA;
-  margin: 15px;
-}
-#work-detail:hover{
-  box-shadow: 3px 3px 2px grey;
+  margin: 0.5rem;
 }
 #work-heading{
   text-align: center;
@@ -636,7 +627,7 @@ code {
   text-decoration: none;
 }
 #work-desc{
-  color: #E9E9E9;
+  margin: 1rem 0;
 }
 #hamburger{
   display: none;

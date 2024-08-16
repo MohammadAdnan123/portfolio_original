@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function SkillCard(props){
     return(
         <div id="skill-box" style={{height: '10rem'}}>

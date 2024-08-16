@@ -52,13 +52,13 @@ export default function MainContent() {
             <section id="hobbs">
                 <section id="working" data-aos="flip-left" data-aos-duration="1000">
                     <h3 id="working-heading">I do projects and programming</h3>
-                    <p id="working-para">Web applications, android applications, and lot of fun things.</p>
+                    <p id="working-para">Worked on various projects, including creating web applications, developing Android applications, and experimenting with a lot of fun and innovative things.</p>
                     <Link to="/work" id="working-button-space"><button id="working-button">SEE MY WORK</button></Link>
                 </section>
 
                 <section id="content-creating" data-aos="flip-right" data-aos-duration="1000">
                     <h3 id="content-creating-heading">I create courses on Youtube</h3>
-                    <p id="content-creating-para">Videos on coding courses to help beginners in starting their coding journey.</p>
+                    <p id="content-creating-para">Created courses on YouTube and made videos on coding courses to help beginners start their coding journey.</p>
                     <Link to="/contents" id="content-creating-button-space"><button id="content-creating-button">SEE MY CONTENTS</button></Link>
                 </section>
             </section>

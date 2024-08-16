@@ -1,5 +1,3 @@
-// AnimatedRoutes.js
-import React from "react";
 import MainContent from "./MainContent";
 import Footer from "./Footer";
 import Content from "./Content";
